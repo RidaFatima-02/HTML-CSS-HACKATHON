@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background: #0065c3;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+}
+.navbar-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-item{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .navbar-item{
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+    font-family: 'Sofia Pro Black', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar-right .navbar-item:hover{
+    color: #0065c3;
+    background-color: white;
+}
+.carousel-inner{
+    width: 100%;
+    justify-content: center;
+    padding-left: 40px;
+    background-color: rgb(8, 8, 8);
+}
+.carousel1{
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Tablet_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-btn{
+    position: absolute;
+    top: 200%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+.btn-crousel{
+    padding: 10px 35px 10px 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: #fff;
+    background-color: #0065c3;
+}
+.btn-crousel:hover{
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: #0065c3;
+    color: #0065c3;
+}
+
+.pepsi-nitro__flex {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 80%;
+    justify-content: space-evenly;
+ }
+.product-item{
+    padding-top: 130px;
+    
+}
+.product-item img{
+    max-width: 70%;
+    align-items: center;
+}
+.product-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+.container-btn{
+    position: absolute;
+    top: 230%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+
+}
+.btn-crousel{
+    padding: 10px 35px 10px 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: #fff;
+    background-color:#0065c3;
+}
+.btn-crousel:hover{
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow:#0065c3;
+    color:#0065c3;
+}
+.background{
+    background-color: #0065c3;
+    max-width: 800px;
+}
+.bg1 img{
+    max-width: 1350px;
+    display: inline;
+    position: absolute;
+    padding-left: 600px;
+    /* flex-direction: row; */
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0065c3;
+}
+.bg2 img{
+    /* flex-direction: column; */
+    display: inline;
+    position: relative;
+    top: 250px;
+    /* background-color: #0065c3; */
+    max-width: 500px;
+}
+.text-img img{
+    display:inline;
+    position: relative;
+    padding: 20px;
+    bottom: 200px;
+    max-width: 50%;  
+    height: auto;  
+    
+}
+.carousel-item4 img{
+    max-width: 300%;
+    position: relative;
+    height: auto;
+    width: 1350px;
+    padding: 20px;
+    background-color: #0065c3;
+
+}
+
+
+ 
